@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = "http://3.12.123.131:5000/users";
+const API_URL = "https://cors-anywhere.herokuapp.com/http://3.12.123.131:5000/users/";
+;
 
 const App = () => {
   const [users, setUsers] = useState([]);
